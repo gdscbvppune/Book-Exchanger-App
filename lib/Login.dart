@@ -138,7 +138,7 @@ class _LoginState extends State<Login> {
                           width: 150.0,
                           height: 50.0,
                           child: new RaisedButton(onPressed: () async{
-                           var url = 'http://192.168.1.115:8000/login_api/';
+                           var url = 'https://bookexchanger.herokuapp.com/login_api/';
                            var username = usernameController.text;
                            Map data = {
                              'username' : username,

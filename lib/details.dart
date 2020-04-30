@@ -15,7 +15,7 @@ class _DescriptionState extends State<Description> {
   Map userData;
 
   Future getData() async {
-    var url =  'http://192.168.1.115:8000/details_api/';
+    var url =  'https://bookexchanger.herokuapp.com/details_api/';
     Map data ={
       "id" : widget.index.toString()
     };
@@ -113,7 +113,7 @@ class _DescriptionState extends State<Description> {
                     right: 10,
                     child: InkWell(
                       onTap: (){
-                        var message = "Hey, check out this book of " + userData["title"] + " by " + userData["author"] + " at http://192.168.1.115:8000/details/" + widget.index.toString();
+                        var message = "Hey, check out this book of " + userData["title"] + " by " + userData["author"] + " at https://bookexchanger.herokuapp.com/details/" + widget.index.toString();
                         Share.share(message);
                       },
                       child: Padding(

@@ -41,7 +41,7 @@ class _BookState extends State<Book> {
             children: <Widget>[
               Padding(
                 padding: EdgeInsets.only(
-                  top:50.0
+                  top:35.0
                 )
               ),
               Container(
@@ -68,7 +68,7 @@ class _BookState extends State<Book> {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  top:50.0
+                  top:40.0
                 )
               ),
               Container(
@@ -83,7 +83,7 @@ class _BookState extends State<Book> {
                   keyboardType: TextInputType.text,
                   textCapitalization: TextCapitalization.none,
                   autocorrect: false,
-                  textInputAction: TextInputAction.newline,
+                  // textInputAction: TextInputAction.newline,
                   maxLines: null,
                   controller: descriptionController,
                   decoration: InputDecoration(
@@ -96,7 +96,7 @@ class _BookState extends State<Book> {
               ),
               Padding(
                 padding: EdgeInsets.only(
-                  top:50.0
+                  top:40.0
                 )
               ),
               Container(
@@ -151,7 +151,7 @@ class _BookState extends State<Book> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async{      
-          var url = 'http://192.168.1.115:8000/book_view_api/';
+          var url = 'https://bookexchanger.herokuapp.com/book_view_api/';
           var bytes = imageFile.readAsBytesSync();
           Map data = {
             'name' : nameController.text,

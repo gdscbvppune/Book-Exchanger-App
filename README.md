@@ -1,6 +1,9 @@
 # BookExchanger
 
-A new Flutter project.
+The AIM is to provide a a mobile app and web app wherein students can easily exchange,buy or sell books. We presume a lot of students struggle to find the required books according to their college syllabus. It’s hard to gather notes from different online sites and libraries because of their high costs. So, we have created a mobile app and web app wherein students can easily exchange books in mutual understanding with each other.
+It works in association with our [Book-exchanger-web](https://github.com/dscbvppune/Book-Exchanger-Web)
+
+Video Demo : https://www.youtube.com/watch?v=A-RdgJG8Mz4
 
 # Requirement
 - Flutter installed on your machine
@@ -20,6 +23,7 @@ To build the application, just:
   - Run ``` flutter run --release ``` on your console
 - If you want to just build the apk
   - Run ``` flutter build apk --release ``` (for Android users)
+  
   
 
 ## Known Issue

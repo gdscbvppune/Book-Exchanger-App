@@ -24,6 +24,12 @@ To build the application, just:
 - If you want to just build the apk
   - Run ``` flutter build apk --release ``` (for Android users)
   
+## Contributors
+
+| Name              | Github username                                   | E-Mail                                                                |
+| ----------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
+| Vansh Bhasin   | [vanshbhasin157](https://github.com/vanshbhasin157)      | [vanshbhasin157@gmail.com](mailto:vanshbhasin157@gmail.com) 
+| Shreya Gupta   | [shreyagupta12](https://github.com/shreyagupta12)| [creation9369778710@gmail.com](mailto:creation9369778710@gmail.com)       |
   
 
 ## Known Issue
